@@ -2,6 +2,10 @@ import { Route, Routes } from "react-router";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Agence from "./pages/Agence";
+import { ScrollTrigger } from "gsap/all";
+import gsap from "gsap";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
